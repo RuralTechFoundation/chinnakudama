@@ -1,0 +1,55 @@
+.carousel .carousel-inner .carousel-item{
+    height: 500px;
+    background-color: green;
+    opacity: 0.6;
+}
+
+.carousel .carousel-inner .carousel-item img{
+    position:absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+    height: 100%;
+}
+
+
+.villagelocations .container .row .col .card{
+    padding: 70px 0px 70px 0px;
+    text-align: center;
+    color: white;
+    box-shadow: cornsilk;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    transition: 0.5s all ease-in-out;
+}
+
+.villagelocations .container .row .col .card:hover{
+    transform: scale(1.1);
+}
+
+.villagelocations .container .row .col .card .card-body{
+    background-color: green;
+    opacity: 0.8;
+}
+
+.villagelocations .container .row .col #temples{
+    background-image: url("../../assets/images/templecardimg.jpg") ;
+}
+
+.villagelocations .container .row .col #schools{
+    background-image: url("../../assets/images/schoolscardimg.png") ;
+}
+
+.villagelocations .container .row .col #medicalshops{
+    background-image: url("../../assets/images/medicalshopscard.jpg") ;
+}
+
+.villagelocations .container .row .col #governmentKendras{
+    background-image: url("../../assets/images/govermentimg.jpg") ;
+}
