@@ -13,7 +13,6 @@
     height: 100%;
 }
 
-
 .villagelocations .container .row .col .card{
     padding: 70px 0px 70px 0px;
     text-align: center;
@@ -30,6 +29,7 @@
 }
 
 .villagelocations .container .row .col .card:hover{
+    cursor: pointer;
     transform: scale(1.1);
 }
 
@@ -52,4 +52,10 @@
 
 .villagelocations .container .row .col #governmentKendras{
     background-image: url("../../assets/images/govermentimg.jpg") ;
+}
+
+.footer{
+    background-color: rgb(16, 68, 16);
+    color: white;
+    padding: 2px 0px 2px 0px;
 }
